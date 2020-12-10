@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+.App {
+  text-align: center;
+}
+
+#Nav{
+  height: 88px;
+}
+
+#navTitle{
+  color: white;
+  font-family: 'Kalam', cursive;
+  font-size: 2em;
+  padding: 8px;
+}
+
+#navOption{
+  color: rgb(100, 167, 163);
+  font-weight: 600;
+  font-size: 1.4em;
+  font-family: 'Nanum Gothic Coding', monospace;
+  margin-left: 2em;
+  padding: 8px;
+}
