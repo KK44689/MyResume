@@ -11,6 +11,7 @@ body{
 
 #Nav{
   height: 88px;
+  background: linear-gradient(rgba(146, 212, 190),rgba(146, 212, 190));
 }
 
 #navTitle{
@@ -21,7 +22,7 @@ body{
 }
 
 #navOption{
-  color: rgb(117, 197, 192);
+  color: rgb(0, 65, 60);
   font-weight: 500;
   font-size: 1.4em;
   font-family: 'Bai Jamjuree', sans-serif;
@@ -30,17 +31,30 @@ body{
 }
 
 #profile{
-  background-color: bisque;
+  background-color: rgba(146, 212, 190);
+  border-style: hidden;
   padding: 32px; 
-  border-radius: 12px;
   text-align: left;
-  margin-top: 5%;
+  margin-top: 88px;
+  height: fit-content;
+}
+
+.ProfilePic{
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+  display: block;
 }
 
 .profileTitle{
   font-family: 'Kalam', cursive;
   font-size: 4em;
   color: rgb(118, 179, 103);
+  margin-top: 100px;
 }
 
 .profileDetails{
@@ -52,25 +66,87 @@ body{
 }
 
 #education{
-  background-color: rgb(77, 77, 77);
-  padding: 32px;
-  border-radius: 12px;
+  background-color: rgb(60, 158, 125);
+  padding: 60px; 
   text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
+  height: fit-content;
 }
 
 .eduTitle{
   font-family: 'Kalam', cursive;
   font-size: 4em;
   color: rgb(241, 255, 177);
+  margin-top: 100px;
 }
 
 .eduDetails{
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 1.8em;
-  color: rgb(126, 238, 173);
+  color: rgb(17, 41, 27);
   font-weight: 500;
   letter-spacing: 2px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+#experience{
+  background-color: rgb(255, 255, 204);
+  padding: 44px;
+  text-align: left;
+}
+
+.expTitle{
+  font-family: 'Kalam', cursive;
+  font-size: 4em;
+  color: rgb(68, 68, 68);
+  margin-top: 100px;
+}
+
+.expDetails{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.8em;
+  color: rgb(21, 119, 70);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.expDetails>span{
+  color: rgb(46, 46, 46);
+}
+
+#skill{
+  background-color: rgb(177, 250, 232);
+  padding: 44px;
+  text-align: left;
+}
+
+.skillTitle{
+  font-family: 'Kalam', cursive;
+  font-size: 4em;
+  color: rgb(26, 102, 98);
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.skillDetails{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.8em;
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+
+.skillDetails2{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.8em;
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  margin-left: 200px;
 }
