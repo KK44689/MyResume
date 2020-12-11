@@ -13,7 +13,7 @@ function Home() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/Online_shop" id={classes.navOption}>Online-Shopping page</Nav.Link>
-            {/* <Nav.Link href="#link" id={classes.navOption}>Signup Form page</Nav.Link> */}
+            <Nav.Link as={Link} to="/Signup_Form" id={classes.navOption}>Signup Form page</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

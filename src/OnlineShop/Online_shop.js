@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col,Nav } from 'react-bootstrap';
 import ProductPreview from './ProductPreview';
 import ProductDetails from './ProductDetail';
+import {Link} from 'react-router-dom';
 
 class Online_shop extends Component {
   state = {
@@ -37,15 +38,15 @@ class Online_shop extends Component {
     return (
       <div className={classes.Online_shop}>
         <Navbar fixed="top" expand="lg" id={classes.Nav} >
-          <Navbar.Brand href="/Home" id={classes.navTitle}>Kirima Kangwanwongsakul's Portfolio</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href="/Online_shop" id={classes.navOption}>Online-Shopping page</Nav.Link>
-              <Nav.Link href="#link" id={classes.navOption}>Signup Form page</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+        <Navbar.Brand as={Link} to="/Home" id={classes.navTitle}>Kirima Kangwanwongsakul's Portfolio</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link as={Link} to="/Online_shop" id={classes.navOption}>Online-Shopping page</Nav.Link>
+            <Nav.Link as={Link} to="/Signup_Form" id={classes.navOption}>Signup Form page</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
         <br /><br /><br /><br />
         <Container id={classes.Container}>
           <Row>

@@ -1,27 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .signupForm {
   text-align: center;
 }
 
-body{
-  background: linear-gradient(
-    rgba(255, 0, 0, 0.45), 
-    rgba(255, 0, 0, 0.45)
-  ),url(./images/bg-intro-desktop.png);
+body {
+  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)),
+    url(./bg-intro-desktop.png);
   background-size: cover;
 }
 
+#Nav {
+  height: 88px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+#navTitle {
+  color: rgb(29, 29, 29);
+  font-family: "Kalam", cursive;
+  font-size: 2em;
+  padding: 8px;
+}
+
+#navOption {
+  color: rgb(0, 122, 153);
+  font-weight: 500;
+  font-size: 1.4em;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-left: 2em;
+  padding: 8px;
+}
+
 @media screen and (min-width: 375px) {
-  .TextHeading{
-    font-family: Poppins ;
+  .TextHeading {
+    font-family: Poppins;
     color: white;
     font-weight: 600;
     font-size: 60px;
     margin-top: 40%;
     text-align: center;
   }
-  .TextPara{
-    font-family:Poppins ;
+  .TextPara {
+    font-family: Poppins;
     color: white;
     font-style: normal;
     font-size: 20px;
@@ -29,48 +48,48 @@ body{
     text-align: center;
   }
 
-  .form{
+  .form {
     background-color: white;
-    font-family:Poppins;
-    padding: 40px ;
+    font-family: Poppins;
+    padding: 40px;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
     height: fit-content;
     border-radius: 12px;
-    box-shadow: 8px 8px rgba(88, 88, 88,0.4);
+    box-shadow: 8px 8px rgba(88, 88, 88, 0.4);
   }
 
-  .formInput{
+  .formInput {
     size: 10px;
   }
-  
-  .form > button{
-    font-family:Poppins;
+
+  .form > button {
+    font-family: Poppins;
     color: white;
     width: 100%;
     background-color: rgb(35, 197, 135);
     border: mediumspringgreen;
-    box-shadow: 4px 4px  rgba(28, 148, 102,0.4);
+    box-shadow: 4px 4px rgba(28, 148, 102, 0.4);
     padding: 16px;
     border-radius: 8px;
   }
 
-  .form > button:hover{
-    font-family:Poppins;
+  .form > button:hover {
+    font-family: Poppins;
     color: white;
     width: 100%;
     background-color: rgb(124, 216, 181);
     border: mediumspringgreen;
-    box-shadow: 4px 4px  rgba(28, 148, 102,0.4);
+    box-shadow: 4px 4px rgba(28, 148, 102, 0.4);
     padding: 16px;
     border-radius: 8px;
   }
 
   .square {
     height: fit-content;
-    padding:12px;
+    padding: 12px;
     text-align: center;
     width: 60%;
     margin-left: auto;
@@ -78,13 +97,13 @@ body{
     margin-top: 20%;
     background-color: rgb(102, 30, 131);
     border-radius: 12px;
-    box-shadow:8px 8px rgba(88, 88, 88,0.4);
+    box-shadow: 8px 8px rgba(88, 88, 88, 0.4);
   }
 }
 
 @media screen and (max-width: 375px) {
-  .TextHeading{
-    font-family: Poppins ;
+  .TextHeading {
+    font-family: Poppins;
     color: white;
     font-weight: 600;
     font-size: 28px;
@@ -93,8 +112,8 @@ body{
     margin-left: 10%;
     margin-right: 10%;
   }
-  .TextPara{
-    font-family:Poppins ;
+  .TextPara {
+    font-family: Poppins;
     color: white;
     font-style: normal;
     font-size: 16px;
@@ -104,22 +123,22 @@ body{
     margin-right: 10%;
   }
 
-  .form{
+  .form {
     background-color: white;
-    font-family:Poppins;
-    padding: 40px ;
+    font-family: Poppins;
+    padding: 40px;
     margin-top: 10%;
     width: 90%;
     height: fit-content;
     border-radius: 12px;
-    margin-left:auto ;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 30%;
-    box-shadow: 4px 4px  rgba(88, 88, 88,0.4);
+    box-shadow: 4px 4px rgba(88, 88, 88, 0.4);
   }
-  
-  .form > button{
-    font-family:Poppins;
+
+  .form > button {
+    font-family: Poppins;
     width: 100%;
   }
 
@@ -135,35 +154,35 @@ body{
   }
 }
 
-#Text{
+#Text {
   font-family: Poppins;
   font-weight: 400;
   margin-top: 20px;
 }
 
-.Terms{
-  color:rgba(255, 0, 0, 0.6);
+.Terms {
+  color: rgba(255, 0, 0, 0.6);
   font-weight: 700;
 }
 
-#FormInput{
+#FormInput {
   margin-bottom: 24px;
 }
 
-.square > p{
+.square > p {
   text-align: center;
   color: white;
   font-family: Poppins;
   font-weight: 400;
 }
 
-.square> p>span{
+.square > p > span {
   text-align: center;
   color: white;
   font-family: Poppins;
   font-weight: 600;
 }
 
-#FormInput{
+#FormInput {
   font-family: Poppins;
 }
