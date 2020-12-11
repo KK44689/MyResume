@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+#Nav {
+  height: 88px;
+  background: linear-gradient(rgba(146, 212, 190), rgba(146, 212, 190));
+}
+
+#navTitle {
+  color: white;
+  font-family: "Kalam", cursive;
+  font-size: 2em;
+  padding: 8px;
+}
+
+#navOption {
+  color: rgb(0, 65, 60);
+  font-weight: 500;
+  font-size: 1.4em;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-left: 2em;
+  padding: 8px;
+}
+
+body {
+  background: linear-gradient(rgba(11, 66, 48, 0.561), rgba(11, 66, 48, 0.561));
+}
+
+#profile {
+  background-color: rgba(146, 212, 190);
+  border-style: hidden;
+  padding: 32px;
+  text-align: left;
+  margin-top: 88px;
+  height: fit-content;
+}
+
+.ProfilePic {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+  display: block;
+}
+
+.profileTitle {
+  font-family: "Kalam", cursive;
+  font-size: 4em;
+  color: rgb(118, 179, 103);
+  margin-top: 100px;
+}
+
+.profileDetails {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8em;
+  color: rgb(53, 53, 53);
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+#education {
+  background-color: rgb(60, 158, 125);
+  padding: 60px;
+  text-align: left;
+  height: fit-content;
+}
+
+.eduTitle {
+  font-family: "Kalam", cursive;
+  font-size: 4em;
+  color: rgb(241, 255, 177);
+  margin-top: 100px;
+}
+
+.eduDetails {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8em;
+  color: rgb(17, 41, 27);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+#experience {
+  background-color: rgb(255, 255, 204);
+  padding: 44px;
+  text-align: left;
+}
+
+.expTitle {
+  font-family: "Kalam", cursive;
+  font-size: 4em;
+  color: rgb(68, 68, 68);
+  margin-top: 100px;
+}
+
+.expDetails {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8em;
+  color: rgb(21, 119, 70);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.expDetails > span {
+  color: rgb(46, 46, 46);
+}
+
+#skill {
+  background-color: rgb(177, 250, 232);
+  padding: 44px;
+  text-align: left;
+}
+
+.skillTitle {
+  font-family: "Kalam", cursive;
+  font-size: 4em;
+  color: rgb(26, 102, 98);
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.skillDetails {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8em;
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+
+.skillDetails2 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8em;
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+
+Link{
+  margin-top: 5%;
+}

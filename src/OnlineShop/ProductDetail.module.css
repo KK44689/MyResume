@@ -1,0 +1,68 @@
+.ProductPreview{
+    position: relative;
+  }
+  
+  .ProductTitle{
+    font-family:'Source Sans Pro',sans-serif;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  
+  .ProductDescription{
+    font-size: 20px;
+    color: rgba(0,0,0,0.8);
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  
+  .SectionHeading{
+    font-size: 28px;
+    margin-bottom: 8px;
+    margin-left: 0;
+  }
+  
+  .ProductPic{
+    width: 100%;
+    max-width: 80px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  
+  .SelectedProductPic{
+    border: 2px solid teal;
+  }
+  
+  .FeatureItem{
+    background-color: gainsboro;
+    border-radius: 8px;
+    min-width: 80px;
+    text-align: center;
+    border:0;
+    margin-right: 12px;
+    padding: 12px 24px;
+    font-weight: 600;
+    box-sizing: content-box;
+    margin-bottom: 24px;
+  }
+  
+  .SelectedFeature{
+    color:white;
+    background-color: grey;
+  }
+  
+  .PrimaryButton{
+    background-color: teal;
+    font-size: large;
+    color:white;
+    border-radius: 8px;
+    min-width: 80px;
+    text-align: center;
+    border:0;
+    margin-right: 12px;
+    padding: 12px 24px;
+    font-weight: 600;
+    box-sizing: content-box;
+    margin-bottom: 16px;
+  }

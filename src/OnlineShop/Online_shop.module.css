@@ -1,0 +1,35 @@
+.Online_shop {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(rgb(255, 252, 213), rgb(255, 252, 213));
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+#Nav {
+  height: 88px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+#navTitle {
+  color: rgb(29, 29, 29);
+  font-family: "Kalam", cursive;
+  font-size: 2em;
+  padding: 8px;
+}
+
+#navOption {
+  color: rgb(0, 122, 153);
+  font-weight: 500;
+  font-size: 1.4em;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-left: 2em;
+  padding: 8px;
+}
+
+#Container {
+  margin-top: 100px;
+}
