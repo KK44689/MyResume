@@ -28,12 +28,12 @@ function SignupForm() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link as={Link} to="/Online_shop" id={classes.navOption}>Online-Shopping page</Nav.Link>
-                        <Nav.Link as={Link} to="/Signup_Form" id={classes.navOption}>Signup Form page</Nav.Link>
+                        <Nav.Link as={Link} to="/Signup_Form" id={classes.navSignup}>Signup Form page</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
 
-            <Row>
+            <Row id={classes.Row}>
                 <Col sm={10} md lg={6}>
                     <h1 className={classes.TextHeading}>Learn to code by <br />watching others</h1>
                     <p className={classes.TextPara}>See how experienced developers solve problems in real-time.<br />

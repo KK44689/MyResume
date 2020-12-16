@@ -42,7 +42,7 @@ class Online_shop extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link as={Link} to="/Online_shop" id={classes.navOption}>Online-Shopping page</Nav.Link>
+            <Nav.Link as={Link} to="/Online_shop" id={classes.navOnlineShop}>Online-Shopping page</Nav.Link>
             <Nav.Link as={Link} to="/Signup_Form" id={classes.navOption}>Signup Form page</Nav.Link>
           </Nav>
         </Navbar.Collapse>

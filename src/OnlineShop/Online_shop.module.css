@@ -23,8 +23,23 @@
   padding: 8px;
 }
 
+#navOption:focus{
+  color: rgb(0, 255, 170);
+}
+#navOption:hover{
+  color:rgb(0, 255, 170);
+}
+
 #navOption {
   color: rgb(0, 122, 153);
+  font-weight: 500;
+  font-size: 1.4em;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-left: 2em;
+  padding: 8px;
+}
+#navOnlineShop {
+  color: rgb(0, 200, 167);
   font-weight: 500;
   font-size: 1.4em;
   font-family: "Bai Jamjuree", sans-serif;
@@ -34,4 +49,20 @@
 
 #Container {
   margin-top: 100px;
+  animation:fade 0.5s ease-in;
+}
+
+@keyframes fade{
+  0%{
+    opacity: 0%;
+  }
+  25%{
+    opacity: 25%;
+  }
+  50%{
+    opacity: 50%;
+  }
+  100%{
+    opacity: 100%;
+  }
 }

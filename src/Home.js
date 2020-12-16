@@ -17,7 +17,7 @@ function Home() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Container fluid>
+      <Container id={classes.Container} fluid>
         <Row id={classes.profile}>
           <Col md lg="6">
             <img className={classes.ProfilePic} src="/ProfilePic.jpg" />

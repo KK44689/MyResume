@@ -32,6 +32,15 @@
   padding: 8px;
 }
 
+#navSignup {
+  color:  rgb(0, 200, 167);
+  font-weight: 500;
+  font-size: 1.4em;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-left: 2em;
+  padding: 8px;
+}
+
 @media screen and (min-width: 375px) {
   .TextHeading {
     font-family: Poppins;
@@ -156,6 +165,13 @@
   }
 }
 
+#navOption:focus{
+  color: rgb(0, 255, 170);
+}
+#navOption:hover{
+  color:rgb(0, 255, 170);
+}
+
 #Text {
   font-family: Poppins;
   font-weight: 400;
@@ -187,4 +203,22 @@
 
 #FormInput {
   font-family: Poppins;
+}
+
+#Row{
+  animation: fade 0.5s ease-in;
+}
+@keyframes fade{
+  0%{
+    opacity: 0%;
+  }
+  25%{
+    opacity: 25%;
+  }
+  50%{
+    opacity: 50%;
+  }
+  100%{
+    opacity: 100%;
+  }
 }
