@@ -1,8 +1,10 @@
 .Online_shop {
   text-align: center;
-}
-
-body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background: linear-gradient(rgb(255, 252, 213), rgb(255, 252, 213));
 }
 

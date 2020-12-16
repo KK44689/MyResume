@@ -22,10 +22,6 @@
   padding: 8px;
 }
 
-body {
-  background: linear-gradient(rgba(11, 66, 48, 0.561), rgba(11, 66, 48, 0.561));
-}
-
 #profile {
   background-color: rgba(146, 212, 190);
   border-style: hidden;

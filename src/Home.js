@@ -8,7 +8,7 @@ function Home() {
   return (
     <div >
       <Navbar fixed="top" expand="lg" id={classes.Nav} >
-        <Navbar.Brand as={Link} to="/Home" id={classes.navTitle}>Kirima Kangwanwongsakul's Portfolio</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" id={classes.navTitle}>Kirima Kangwanwongsakul's Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
